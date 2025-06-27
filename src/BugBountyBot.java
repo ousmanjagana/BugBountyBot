@@ -14,7 +14,7 @@ class LogEntry {
     }
 
     public String toString() {
-        return "[" + level + "] at " + timestamp + ": " + message;
+        return "[" + level + "!] at: " + timestamp + ": " + message;
     }
 }
 
@@ -22,16 +22,16 @@ public class BugBountyBot {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the full path to your log file (e.g. C:\\Users\\user\\Documents\\log.txt): ");
-        String filename = scanner.nextLine().trim();
+        String fileName = scanner.nextLine().trim(); //prevents whitespace from returning a FileNotFound error
 
-        File file = new File(filename);
+        File file = new File(fileName);
         if (!file.exists()) {
-        System.out.println("File not found: " + filename);
+        System.out.println("File not found: " + fileName);
         return;
 }
         List<LogEntry> logs = new ArrayList<>();
 
-        try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
+        try (BufferedReader br = new BufferedReader(new FileReader(fileName))) {
             String line;
 
             while ((line = br.readLine()) != null) {
@@ -42,12 +42,12 @@ public class BugBountyBot {
             }
 
         } catch (IOException e) {
-            System.out.println("Failed to read file: " + filename);
+            System.out.println("Failed to read file: " + fileName);
             e.printStackTrace();
             return;
         }
 
-        System.out.println("=== Parsed Log Entries ===");
+        System.out.println(">>> Parsed Log Entries <<<");
         for (LogEntry log : logs) {
             System.out.println(log);
         }
