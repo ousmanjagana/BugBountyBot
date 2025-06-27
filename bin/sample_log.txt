@@ -1,6 +1,0 @@
-[2025-06-09 14:03:01] INFO User 'admin' logged in
-[2025-06-09 14:03:07] WARN Failed login attempt for user 'guest'
-[2025-06-09 14:03:10] ERROR Database connection timeout
-[2025-06-09 14:03:12] ERROR Database connection timeout
-[2025-06-09 14:03:15] INFO User 'guest' logged out
-    [2025-06-09 14:03:20] ERROR Disk write failure
