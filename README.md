@@ -61,4 +61,4 @@ During development, I had to:
 - Test the program with different log formats and file paths to make sure it handled user input reliably
 
 
-Thank you for reading!
+Thank you for reading! ^^
