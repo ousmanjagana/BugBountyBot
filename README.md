@@ -50,4 +50,15 @@ Desired Sample Log Format:
 
 [2025-06-23 03:33:00] WARN Low memory warning
 
+**Development Notes**
+
+
+During development, I had to:
+
+- Relearn how BufferedReader and FileReader work together to read external files line by line
+- Understand how to use the Pattern and Matcher classes to apply regex and extract specific parts of each log entry
+- Think critically about how to group similar error messages, and design basic logic to cluster related issues
+- Test the program with different log formats and file paths to make sure it handled user input reliably
+
+
 Thank you for reading!
