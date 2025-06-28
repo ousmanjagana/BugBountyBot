@@ -14,7 +14,7 @@ What I Learned:
 - This project was a great refresher on several key Java concepts and problem-solving skills.
 
 - Relearned how to build and safely escape regex patterns in Java, especially using capturing groups such as
-- 
+  
 (.∗?)(.∗?)\s+(INFO|WARN|ERROR)\s+(.*).
 
 - Gained comfort working with Java file input and output tools like BufferedReader, FileReader, and try-with-resources for safe file handling
