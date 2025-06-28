@@ -45,7 +45,9 @@ C:\Users\yourname\Documents\sample_log.txt
 Desired Sample Log Format:
 
 [2025-06-23 03:30:15] INFO Application started
+
 [2025-06-23 03:31:22] ERROR NullPointerException at line 25
+
 [2025-06-23 03:33:00] WARN Low memory warning
 
 Thank you for reading!
