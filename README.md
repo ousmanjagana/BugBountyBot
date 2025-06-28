@@ -1,4 +1,5 @@
 ***>>> Bug Bounty Bot <<<***
+
 The BugBountyBot is designed to be a lightweight Java tool that parses log files, detects errors, and clusters similar issues together. It was made with the intention of helping developers quickly understand  and organize complex logs.
 
 What It Does:
