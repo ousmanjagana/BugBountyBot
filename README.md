@@ -17,7 +17,7 @@ What I Learned:
   
 (.∗?)(.∗?)\s+(INFO|WARN|ERROR)\s+(.*).
 
-- Gained comfort working with Java file input and output tools like BufferedReader, FileReader, and try-with-resources for safe file handling
+- Gained comfort working with Java file input and output tools like BufferedReader, FileReader
 
 - Became more familiar with Pattern and Matcher classes to compile regex patterns, apply them line by line, and extract structured data from logs 
 
